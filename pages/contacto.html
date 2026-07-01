@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="../index.html">Volver al index</a>
+
+    <!-- modify this form HTML and place wherever you want your form -->
+    <form action="https://formspree.io/f/xwvdnyzq" method="POST">
+      <fieldset>
+        <label>
+          Tu e-mail:
+          <input type="email" name="email" />
+        </label>
+      </fieldset>
+      <label>
+        Tu nombre:
+        <textarea name="message"></textarea>
+      </label>
+      <label>
+        Mensaje:
+        <textarea></textarea>
+      </label>
+
+      <!-- your other form fields go here -->
+      <button type="submit">Send</button>
+    </form>
+    <main>
+      <table border="1">
+        <caption>
+          Informacion de los contactos
+        </caption>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Correo</th>
+            <th>Mensaje breve</th>
+            <th>Estado del mensaje</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Walter</td>
+            <td>walter@gmail.com</td>
+            <td>Ayuda con un elemento</td>
+            <td>Respondido</td>
+          </tr>
+
+          <tr>
+            <td>Ana</td>
+            <td>ana@gmail.com</td>
+            <td>asunto de mail</td>
+            <td>Respondido</td>
+          </tr>
+
+          <tr>
+            <td colspan="10">
+              <strong>Mensajes pendiente de respuesta</strong>
+            </td>
+          </tr>
+
+          <tr>
+            <td>Tomas</td>
+            <td>Tomas@gmail.com</td>
+            <td>Horarios</td>
+            <td>Pendiente de respuesta</td>
+          </tr>
+
+          <tr>
+            <td>Martina</td>
+            <td>Martina@gmail.com</td>
+            <td>Fafcultad</td>
+            <td>Pendiente de respuesta</td>
+          </tr>
+        </tbody>
+      </table>
+      <header>
+        <ul class="nav-list">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </header>
+    </main>
+  </body>
+</html>

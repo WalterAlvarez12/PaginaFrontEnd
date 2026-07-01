@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Mantener el orden depende la clase osea la aparicion */
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#footer-principal {
+  color: blueviolet;
+}
+
+h2 {
+  color: red;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  color: #f9f9f9;
+}
+
+.primary {
+  background-color: #4fd6e5;
+}
+
+.secondary {
+  background-color: #6b7280;
+}
+
+.danger {
+  background-color: #ef4444;
+}
+
+/* PAGINA PRINCIPAL */
+.nav-list {
+  list-style: none;
+  text-decoration: none;
+  background-color: #7700ff;
+  padding: 15px;
+}
+
+.nav-list li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-list a:hover {
+  color: yellow;
+}
+
+.seccion-1 {
+  background-color: aqua;
+  border: red solid 1px;
+}
+
+.seccion-2 {
+  background-color: blanchedalmond;
+  border: green solid 2px;
+  width: 50%;
+  color: violet;
+}
+
+section {
+  background-color: antiquewhite;
+}
+
+/* PAGINA CONTACTO */
